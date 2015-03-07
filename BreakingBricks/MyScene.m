@@ -123,10 +123,10 @@ static const uint32_t bottomEdgeCategory = 16;
     CGVector chrisVector = CGVectorMake(10, 10); // (x direction, y direction)
     [chris.physicsBody applyImpulse:chrisVector];
     
-    CGVector joeVector = CGVectorMake(-5, 10); // (x direction, y direction)
+    CGVector joeVector = CGVectorMake(5, 10); // (x direction, y direction)
     [joe.physicsBody applyImpulse:joeVector];
     
-    CGVector zachVector = CGVectorMake(10, -5); // (x direction, y direction)
+    CGVector zachVector = CGVectorMake(10, 5); // (x direction, y direction)
     [zach.physicsBody applyImpulse:zachVector];
 }
 
