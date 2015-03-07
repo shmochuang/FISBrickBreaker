@@ -50,6 +50,7 @@
 		C5E838431AAB3479003BC38F /* BertC_asBoxer.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E838331AAB3479003BC38F /* BertC_asBoxer.png */; };
 		C5E838441AAB3479003BC38F /* AnishK.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E838341AAB3479003BC38F /* AnishK.png */; };
 		C5E838451AAB3479003BC38F /* NickR.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E838351AAB3479003BC38F /* NickR.png */; };
+		C5E838471AAB3D22003BC38F /* coverimage.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E838461AAB3D22003BC38F /* coverimage.png */; };
 		C5F4841E1AA62684006C49EA /* WinScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F4841D1AA62684006C49EA /* WinScene.m */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +115,7 @@
 		C5E838331AAB3479003BC38F /* BertC_asBoxer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BertC_asBoxer.png; sourceTree = "<group>"; };
 		C5E838341AAB3479003BC38F /* AnishK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnishK.png; sourceTree = "<group>"; };
 		C5E838351AAB3479003BC38F /* NickR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NickR.png; sourceTree = "<group>"; };
+		C5E838461AAB3D22003BC38F /* coverimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coverimage.png; sourceTree = "<group>"; };
 		C5F4841C1AA62684006C49EA /* WinScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinScene.h; sourceTree = "<group>"; };
 		C5F4841D1AA62684006C49EA /* WinScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -231,6 +233,7 @@
 		C5E837E31AAA4739003BC38F /* images */ = {
 			isa = PBXGroup;
 			children = (
+				C5E838461AAB3D22003BC38F /* coverimage.png */,
 				C5E838261AAB3479003BC38F /* TomP.png */,
 				C5E838271AAB3479003BC38F /* TomO.png */,
 				C5E838281AAB3479003BC38F /* ShmoC.png */,
@@ -360,6 +363,7 @@
 				C5E838431AAB3479003BC38F /* BertC_asBoxer.png in Resources */,
 				6C433AEB18B019E20038E784 /* Spaceship.png in Resources */,
 				C5E8383A1AAB3479003BC38F /* MarkM.png in Resources */,
+				C5E838471AAB3D22003BC38F /* coverimage.png in Resources */,
 				C5E838451AAB3479003BC38F /* NickR.png in Resources */,
 				6C433AE318B019E20038E784 /* Main.storyboard in Resources */,
 			);

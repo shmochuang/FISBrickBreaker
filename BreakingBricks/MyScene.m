@@ -182,7 +182,7 @@ static const uint32_t bottomEdgeCategory = 16;
 -(void) addPlayer:(CGSize)size  {
     
     // create paddle sprite
-    self.paddle = [SKSpriteNode spriteNodeWithImageNamed:@"paddle"];
+    self.paddle = [SKSpriteNode spriteNodeWithImageNamed:@"coverimage"];
     // position it
     self.paddle.position = CGPointMake(size.width/2,100);
     // add a physics body
