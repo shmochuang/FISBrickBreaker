@@ -59,11 +59,11 @@ static const uint32_t bottomEdgeCategory = 16;
         
     }
     
-    if (notTheBall.categoryBitMask == bottomEdgeCategory) {
-        EndScene *end = [EndScene sceneWithSize:self.size];
-        [self.view presentScene:end transition:[SKTransition doorsCloseHorizontalWithDuration:0.5]];
-    
-    }
+//    if (notTheBall.categoryBitMask == bottomEdgeCategory) {
+//        EndScene *end = [EndScene sceneWithSize:self.size];
+//        [self.view presentScene:end transition:[SKTransition doorsCloseHorizontalWithDuration:0.5]];
+//    
+//    }
     
     
 }
@@ -120,13 +120,13 @@ static const uint32_t bottomEdgeCategory = 16;
     
     
     // push ball
-    CGVector chrisVector = CGVectorMake(10, 10); // (x direction, y direction)
+    CGVector chrisVector = CGVectorMake(5, 5); // (x direction, y direction)
     [chris.physicsBody applyImpulse:chrisVector];
     
     CGVector joeVector = CGVectorMake(5, 10); // (x direction, y direction)
     [joe.physicsBody applyImpulse:joeVector];
     
-    CGVector zachVector = CGVectorMake(10, 5); // (x direction, y direction)
+    CGVector zachVector = CGVectorMake(-5, 5); // (x direction, y direction)
     [zach.physicsBody applyImpulse:zachVector];
 }
 
@@ -210,7 +210,7 @@ static const uint32_t bottomEdgeCategory = 16;
         self.physicsWorld.gravity = CGVectorMake(0, 0);
         self.physicsWorld.contactDelegate = self;
         
-        self.backgroundColor = [UIColor colorWithRed:0/255.0 green:200/255.0 blue:1 alpha:1];
+        self.backgroundColor = [UIColor colorWithRed:192/255.0 green:243/255.0 blue:1 alpha:1];
         
         [self addBall:size];
         [self addPlayer:size];
