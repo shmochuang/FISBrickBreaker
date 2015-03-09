@@ -120,13 +120,13 @@ static const uint32_t bottomEdgeCategory = 16;
     
     
     // push ball
-    CGVector chrisVector = CGVectorMake(5, 5); // (x direction, y direction)
+    CGVector chrisVector = CGVectorMake(5, 7); // (x direction, y direction)
     [chris.physicsBody applyImpulse:chrisVector];
     
     CGVector joeVector = CGVectorMake(5, 10); // (x direction, y direction)
     [joe.physicsBody applyImpulse:joeVector];
     
-    CGVector zachVector = CGVectorMake(-5, 5); // (x direction, y direction)
+    CGVector zachVector = CGVectorMake(-5, 10); // (x direction, y direction)
     [zach.physicsBody applyImpulse:zachVector];
 }
 
@@ -139,7 +139,7 @@ static const uint32_t bottomEdgeCategory = 16;
         
         for (NSInteger j = 0; j < 4; j++) {
         
-            SKSpriteNode *brick = [SKSpriteNode spriteNodeWithImageNamed:imageNames[(i*3) + j]];
+            SKSpriteNode *brick = [SKSpriteNode spriteNodeWithImageNamed:imageNames[(i*4) + j]];
             
             
             // add a static physics body
